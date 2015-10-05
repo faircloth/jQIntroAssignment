@@ -1,5 +1,16 @@
-p {
+// define variables for styling
 
-  color: yellow;
-  font-size: 150px;
+.clock1 {
+  background-color: black;
+  width: 600px;
+  height: 400px;
+}
+
+.clock1time {
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 150px;
+  font-size: 90px;
+  font-style: italic;
 }
