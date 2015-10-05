@@ -1,16 +1,62 @@
 // define variables for styling
 
+* { 
+font-family: 'Rock Salt', cursive;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+
 .clock1 {
-  background-color: black;
+  background-color: #082c38;
   width: 600px;
   height: 400px;
+  border: 5px solid #39bced;
 }
 
 .clock1time {
   color: white;
   text-align: center;
-  margin: 0 auto;
-  padding-top: 150px;
-  font-size: 90px;
-  font-style: italic;
+  font-size: 60px;
+  padding-top: 50px;
+}
+
+.clock2 {
+  background-color: #082c38;
+  width: 600px;
+  height: 400px;
+  border: 5px solid #39bced;
+  margin-top: 20px;
+}
+
+.green {
+  background-color: green;
+   width: 600px;
+  height: 400px;
+  border: 5px solid #39bced;
+  margin-top: 20px;
+}
+
+
+.blue {
+  background-color: blue;
+   width: 600px;
+  height: 400px;
+  border: 5px solid #39bced;
+  margin-top: 20px;
+}
+
+.red {
+  background-color: red;
+   width: 600px;
+  height: 400px;
+  border: 5px solid #39bced;
+  margin-top: 20px;
+}
+
+.clock2time {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  padding-top: 50px;
 }
