@@ -54,7 +54,7 @@ function currentTime2 () {
   // use ternary operator to correct for digits
 
   
-  hours2 = (hours2 <= 12 ? '0' : '') + hours2
+  hours2 = (hours2 < 10 ? '0' : '') + hours2
   minutes2 = (minutes2 < 10 ? '0' : '') + minutes2;
   seconds2 = (seconds2 < 10 ? '0' : '') + seconds2;
 
