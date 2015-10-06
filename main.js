@@ -17,7 +17,7 @@ function currentTime () {
 
   rawHours = hours1;
 
-  hours1 = (hours1 <= 12 ? '0' : hours1 - 12);
+  hours1 = (hours1 <= 12 ? hours1 : hours1 - 12);
   minutes1 = (minutes1 < 10 ? '0' : '') + minutes1;
   seconds1 = (seconds1 < 10 ? '0' : '') + seconds1;
 
@@ -70,16 +70,13 @@ function currentTime2 () {
 
   // put the time on the page
   $('#clock2time').html(clock2Time);
-  $('#clock2').toggleClass('.clock2', '.blue', '.green' , '.red', 4000, 2000);
+  $('#clock2').css('background-color', clock2Time);
 
-}
+};
 
 // set frequency of update
 window.onload = currentTime2();
 setInterval(currentTime2, 1000);
-setInterval(toggleClass('.clock2', '.blue', '.green' , '.red', 4000, 2000));
-
-
 
 
 
