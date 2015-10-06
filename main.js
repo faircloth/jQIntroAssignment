@@ -17,7 +17,7 @@ function currentTime () {
 
   rawHours = hours1;
 
-  hours1 = (hours1 <= 12 ? hours1 : hours1 - 12);
+  hours1 = (hours1 < 12 ? hours1 : hours1 - 12);
   minutes1 = (minutes1 < 10 ? '0' : '') + minutes1;
   seconds1 = (seconds1 < 10 ? '0' : '') + seconds1;
 
